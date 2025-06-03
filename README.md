@@ -28,7 +28,18 @@ This project is an automated service designed to collect orders for an online re
 - Chainlit: The framework for the interactive chat interface.
 
 **Installation:**
+- Clone the repository:
+    git clone https://github.com/orderbot.git
+    cd orderbot
 
+- Install the required Python libraries:
+    pip install -r requirements.txt
+
+- Set up your OpenAI API Key:
+Ensure your OpenAI API key is configured as an environment variable (e.g., OPENAI_API_KEY) or directly initialized in your code (though using environment variables is recommended for security).
+
+- Run the application:
+    chainlit run app.py -w
 
 
 **Usage:**
